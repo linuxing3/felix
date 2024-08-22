@@ -2,7 +2,7 @@ name: Release
 on:
   push:
     branches:
-    - 'main'
+    - 'develop'
   pull_request:
     paths:
     - '.github/workflows/release.yml'
